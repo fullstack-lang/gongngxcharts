@@ -8,7 +8,6 @@
     "strict": true,
     "noImplicitOverride": true,
     "paths": {
-
       // 
       // https://angular.io/guide/creating-libraries#use-typescript-path-mapping-for-peer-dependencies
       //
@@ -62,20 +61,20 @@
         "./node_modules/tslib"
       ],
       "gong": [
-      "../vendor/github.com/fullstack-lang/gong/ng/projects/gong/src/public-api.ts"
+        "../vendor/github.com/fullstack-lang/gong/ng/projects/gong/src/public-api.ts"
       ],
       "gongdoc": [
-      "../vendor/github.com/fullstack-lang/gongdoc/ng/projects/gongdoc/src/public-api.ts"
+        "../vendor/github.com/fullstack-lang/gongdoc/ng/projects/gongdoc/src/public-api.ts"
       ],
       "gongdocdiagrams": [
-      "../vendor/github.com/fullstack-lang/gongdoc/ng/projects/gongdocdiagrams/src/public-api.ts"
+        "../vendor/github.com/fullstack-lang/gongdoc/ng/projects/gongdocdiagrams/src/public-api.ts"
       ],
-
       "gongngxcharts": [
         "projects/gongngxcharts/src/public-api.ts",
-        "dist/gongngxcharts/gongngxcharts",
-        "dist/gongngxcharts"
-      ]
+      ],
+      "gongngxchartsspecific": [
+        "projects/gongngxchartsspecific/src/public-api.ts",
+      ],
     },
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
